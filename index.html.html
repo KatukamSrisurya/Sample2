@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Reg_form</title>
+        <style>
+        body{
+            background-image: url(background.jpeg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        form{
+            border-radius: 10px;
+            width:30%;
+            padding:30px ;
+            background-color: rgb(255, 255, 255);
+            border:1px solid rgb(205, 206, 214);
+        }
+        input{
+            width:300px;
+            background-color: transparent;
+            border: none;
+            border-bottom: 2px solid grey;
+            color:black;
+            padding: 5px;
+        }
+
+        input:focus{
+            outline: 0px solid transparent;
+            border-bottom: 2px solid white;
+        }
+        button{
+            border: 1px solid rgb(144, 139, 139);
+            border-radius: 6px;
+            width:90%;
+            padding:15px;;   
+            font-family: arial; 
+        }
+        </style>
+</head> 
+<body style="background-color:rgb(241, 241, 248)">
+    <h1 style="font-family:'poppins',sans-serif; color:white;" align="center">Registration Form</h1>
+    <div align="center">
+    <form align="center" class="form">
+        <input type="text" placeholder="First Name" required ><br><br>
+        <input type="text" placeholder="Last Name" ><br><br>
+        <input type="date" required><br><br>
+        <input type="email"  placeholder="Enter Mail ID" required><br><br>
+        <input type="text"  placeholder="Mobil Number"  maxlength="18" required><br><br>
+        <input type="text" placeholder="Create a user name" minlength="8" required><br><br>
+        <input type="password" placeholder="Enter password" minlength="8" maxlength="18" required><br><br>
+        <input type="password" placeholder="Confirm password" minlength="8" maxlength="'18" required><br><br>
+        <br>
+        <button value="Create New Account" style="background-color:#8216ff; color:white; font-size:20px; border:none;width:fit-content;height:fit-content"><a href="sucess.html" style="text-decoration:none;color:white" target="_blank">Register</a></button>
+    </form>
+    <br>
+</div>
+</body>
+</html>
